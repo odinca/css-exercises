@@ -112,3 +112,24 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.nav>ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav,
+.article {
+  grid-column: 2;
+}
+
+.sidebar {
+  grid-row: 2 / 6;
+  display: grid;
+  gap: 50px;
+}
+
+.side-content {
+  display: grid;
+  align-items: center;
+}
